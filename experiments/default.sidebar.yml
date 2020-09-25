@@ -2,4 +2,8 @@
 type: experiment
 name: sidebar
 flag: default.sidebar
+conditions:
+  - group:
+      name: BetaUsers
+    value: true
 value: false
